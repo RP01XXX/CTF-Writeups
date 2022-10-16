@@ -64,5 +64,16 @@ you will be able to scroll through this you will find the flag.
 Flag
 flag{longing_for_nancy}
 
+CRYPT009 - Pandoras Box
+**Challenge**
+Pandora's box, we have found it! Even better, the last travelers knew the numbered code to get in but they couldn't figure out the transcription. Figure out the the transcription's translation to find the flag!
 
+Submit the flag as: `flag{word_word_word_word}`
 
+This is a simple Caesars shift but in a twisted way. The number tells you how far to shift the letter to the right. Simply move the letters over to the left by the numbers to solve the problem.
+
+3686    526   814   518
+GUVZ  QGZ  PFV   TVB  
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+flag{dont_let_her_out}
