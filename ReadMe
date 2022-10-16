@@ -52,3 +52,17 @@ You really need to zoom in on a post that has Ed an Roxie signature on the pole.
 
 Flag
 flag{ed_roxie_2019}
+
+
+#3 PCAP09 - Dreaming of You
+Challenge
+Someone doesn't understand networking traffic. Can you finds the flag from the PCAP file?
+Super simple network review, if you search through the traffic by using the filter "Telnet" you see a whole string of telnet traffic. If you right click and follow the TCP stream
+you will be able to scroll through this you will find the flag.
+
+
+Flag
+flag{longing_for_nancy}
+
+
+
