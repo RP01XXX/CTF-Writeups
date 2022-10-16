@@ -102,7 +102,7 @@ The full base64: ZmxhZ3tpbmFib3hfaW5hYm94X2luYWJveF9pbmFib3hfaW5hYm94X2luYWJveF9
 Flag
 flag{inabox_inabox_inabox_inabox_inabox_inabox_inabox_inabox}
 
-PWN07 - Database Crack
+# PWN07 - Database Crack
 Challenge
 We did it, we managed to get a copy of a password database from Johnny Ezell. Can you crack the password to get into the database and see what things lie within?
 
@@ -124,7 +124,7 @@ Step 3:
 Flag
 flag{breaking_the_law}
 
-PWN08 - Cracking NTLM
+# PWN08 - Cracking NTLM
 
 Challenge
 Vanessa got into our Domain Controller and dumped our hashes and claims she got account credentials! Can you figure out what username and password she may have gotten?
