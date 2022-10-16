@@ -54,7 +54,7 @@ Flag
 flag{ed_roxie_2019}
 
 
-# 3 PCAP09 - Dreaming of You
+# PCAP09 - Dreaming of You
 Challenge
 Someone doesn't understand networking traffic. Can you finds the flag from the PCAP file?
 Super simple network review, if you search through the traffic by using the filter "Telnet" you see a whole string of telnet traffic. If you right click and follow the TCP stream
