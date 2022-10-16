@@ -1,6 +1,6 @@
 My Challenge Writeups. I made these challenges and wanted to include my writeups.
 
-** PWN07 - Database Crack
+** PWN07 - Database Crack------------------------------------------------------------------------------------
 We did it, we managed to get a copy of a password database from Johnny Ezell. Can you crack the password to get into the database and see what things lie within?
 
  Solution
@@ -35,7 +35,7 @@ Flag
 flag{breaking_the_law}
 
 
-# OSINT6 - My Next Target
+# OSINT6 - My Next Target------------------------------------------------------------------------------------
 Description
 deephax has a new target in mind. Its up to you to discover who it is and warn them before it's too late. He keeps talking about visiting sometime. Use the mySecret.kdbx database from PWN07 - Database Crack to identify the target. The historical data for the database is not related to the challenge and just an artifact.
 
@@ -54,7 +54,7 @@ Flag
 flag{ed_roxie_2019}
 
 
-#3 PCAP09 - Dreaming of You
+#3 PCAP09 - Dreaming of You------------------------------------------------------------------------------------
 Challenge
 Someone doesn't understand networking traffic. Can you finds the flag from the PCAP file?
 Super simple network review, if you search through the traffic by using the filter "Telnet" you see a whole string of telnet traffic. If you right click and follow the TCP stream
@@ -64,7 +64,7 @@ you will be able to scroll through this you will find the flag.
 Flag
 flag{longing_for_nancy}
 
-# CRYPT009 - Pandoras Box
+# CRYPT009 - Pandoras Box------------------------------------------------------------------------------------
 **Challenge**
 Pandora's box, we have found it! Even better, the last travelers knew the numbered code to get in but they couldn't figure out the transcription. Figure out the the transcription's translation to find the flag!
 
@@ -78,7 +78,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 flag{dont_let_her_out}
 
-# STEG08 - Holiday Nesting Doll
+# STEG08 - Holiday Nesting Doll------------------------------------------------------------------------------------
 Challenge
 Holidays are a headache and this one is no different. Mirveal fractured the flag, can you find it? TIME is almost up! Halloween is coming!  
 Password: `d34df4c3`
@@ -102,7 +102,7 @@ The full base64: ZmxhZ3tpbmFib3hfaW5hYm94X2luYWJveF9pbmFib3hfaW5hYm94X2luYWJveF9
 Flag
 flag{inabox_inabox_inabox_inabox_inabox_inabox_inabox_inabox}
 
-PWN07 - Database Crack
+PWN07 - Database Crack------------------------------------------------------------------------------------
 Challenge
 We did it, we managed to get a copy of a password database from Johnny Ezell. Can you crack the password to get into the database and see what things lie within?
 
@@ -124,7 +124,7 @@ Step 3:
 Flag
 flag{breaking_the_law}
 
-PWN08 - Cracking NTLM
+PWN08 - Cracking NTLM------------------------------------------------------------------------------------
 
 Challenge
 Vanessa got into our Domain Controller and dumped our hashes and claims she got account credentials! Can you figure out what username and password she may have gotten?
