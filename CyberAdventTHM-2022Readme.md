@@ -10,7 +10,7 @@ This room is helpful because logs can assist in most troubleshooting or during a
   - Type "yes" then the password"
 
 
-##Question 1: How many files are present?
+## Question 1: How many files are present?
 - simply type in ls, no brainer
   
 ## Question 2: What is the name of the log file?
