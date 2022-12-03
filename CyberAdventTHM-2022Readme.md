@@ -20,7 +20,7 @@ This room is helpful because logs can assist in most troubleshooting or during a
   - Review the log to see what day the logs are from. If you want to hone into this, you can type the following
   - cat webserver.log | grep santaslist.txt   
   
-##Question 4: What day was the list stolen?
+## Question 4: What day was the list stolen?
   - Well the above question should show a date, look it up on a calender.
   
 ## Question 5: What is the IP
