@@ -1,7 +1,7 @@
-#Day1
+# Day1
 Not much to write here, just follow the prompts!
 
-#Day 2: Santa's Naughty and Nice Log
+# Day 2: Santa's Naughty and Nice Log
 This room is helpful because logs can assist in most troubleshooting or during an incident. Getting comfortable with reading logs can help progress career.
 
 ## Connect to the room
