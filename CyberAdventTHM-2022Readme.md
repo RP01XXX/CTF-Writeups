@@ -45,35 +45,44 @@ This room is helpful because logs can assist in most troubleshooting or during a
 - cache: Get the latest cached version by the Google search engine. For example, cache:tryhackme.com.
 
 
-- Questions 1: What is the name of the Registrar for the domain santagift.shop?
+## Questions 1: What is the name of the Registrar for the domain santagift.shop?
 - Go to icann.org and search it
 
-- Question 2: Find the website's source code (repository) on github.com and open the file containing sensitive credentials. Can you find the flag?
+## Question 2: Find the website's source code (repository) on github.com and open the file containing sensitive credentials. Can you find the flag?
 - Go to github and search the website.
 
-- Question 3: What is the name of the file containing passwords?
+## Question 3: What is the name of the file containing passwords?
 -Go through the readme in the github to find this answer
 
-- Question 4: What is the name of the QA server associated with the website?
+## Question 4: What is the name of the QA server associated with the website?
 - Look at the comments in the file
 
-- Question 5: What is the DB_PASSWORD that is being reused between the QA and PROD environments?
+## Question 5: What is the DB_PASSWORD that is being reused between the QA and PROD environments?
 - Scroll down for the password
 
 # Day 4: Scanning through the snow
 
-- Question 1: What is the name of the HTTP server running on the remote host?
+## Question 1: What is the name of the HTTP server running on the remote host?
 - Simply run an nmap scan to discover services running on the machine
 sudo nmap -sV -p80 X.X.X.X
 - We are looking at port 80 because it is the default port for HTTP.
 
-- Question 2: What is the name of the service running on port 22 on the QA server?
+## Question 2: What is the name of the service running on port 22 on the QA server?
 - This is simply knowing your ports!
 
-- Question 3: What flag can you find after successfully accessing the Samba service?
+## Question 3: What flag can you find after successfully accessing the Samba service?
 - To list to the SMB server: smbclient -L \\\\X.X.X.X -u USERNAME
 - To connect smbclient \\\\X.X.X.X\SHARE -u USERNAME
 - To get a file type GET FILENAME
 
-- Question 4: What is the password for the username santahr?
+## Question 4: What is the password for the username santahr?
 - GET userlist
+
+# Day 5: Bruteforing He Knows When You're Awake
+
+## Question 1: Use Hydra to find the VNC password of the target with IP address MACHINE_IP. What is the password?
+You need to brute force the VNC login with hydra
+hydra -P /usr/share/wordlist/rockyou.txt X.X.X.X vnc
+
+## Question 2: Using a VNC client on the AttackBox, connect to the target of IP address MACHINE_IP. What is the flag written on the target’s screen?
+- Use remina to login and the wordlist is present.
