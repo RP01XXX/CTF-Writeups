@@ -36,4 +36,44 @@ This room is helpful because logs can assist in most troubleshooting or during a
   - cat SSHD.log | grep -e "THM{"
  
   
+# Day 3: Nothing Escapes Detective McRed
+##Google Dorks
+- Google Dorking involves using specialist search terms and advanced search operators to find results that are not usually displayed using regular search terms. You can use them to search specific file types, cached versions of a particular site, websites containing specific text etc.  Bad actors widely use it to locate website configuration files and loopholes left due to bad coding practices. Some of the widely used Google dorks are mentioned below:
+- inurl: Searches for a specified text in all indexed URLs. For example, inurl:hacking will fetch all URLs containing the word "hacking".
+- filetype: Searches for specified file extensions. For example, filetype:pdf "hacking" will bring all pdf files containing the word "hacking". 
+- site: Searches all the indexed URLs for the specified domain. For example, site:tryhackme.com will bring all the indexed URLs from  tryhackme.com.
+- cache: Get the latest cached version by the Google search engine. For example, cache:tryhackme.com.
 
+
+- Questions 1: What is the name of the Registrar for the domain santagift.shop?
+- Go to icann.org and search it
+
+- Question 2: Find the website's source code (repository) on github.com and open the file containing sensitive credentials. Can you find the flag?
+- Go to github and search the website.
+
+- Question 3: What is the name of the file containing passwords?
+-Go through the readme in the github to find this answer
+
+- Question 4: What is the name of the QA server associated with the website?
+- Look at the comments in the file
+
+- Question 5: What is the DB_PASSWORD that is being reused between the QA and PROD environments?
+- Scroll down for the password
+
+# Day 4: Scanning through the snow
+
+- Question 1: What is the name of the HTTP server running on the remote host?
+- Simply run an nmap scan to discover services running on the machine
+sudo nmap -sV -p80 X.X.X.X
+- We are looking at port 80 because it is the default port for HTTP.
+
+- Question 2: What is the name of the service running on port 22 on the QA server?
+- This is simply knowing your ports!
+
+- Question 3: What flag can you find after successfully accessing the Samba service?
+- To list to the SMB server: smbclient -L \\\\X.X.X.X -u USERNAME
+- To connect smbclient \\\\X.X.X.X\SHARE -u USERNAME
+- To get a file type GET FILENAME
+
+- Question 4: What is the password for the username santahr?
+- GET userlist
