@@ -1,7 +1,8 @@
 This is the official write-ups for my challenges for Deadface 2023. I am the develope of these challenges. My focus is to always teach new penetration testing skills in my challenges.
 
 ## Steg02 - You've Been Ransomwared
-
+There are several ways this challenge can be solved. First, players can download the image and use their image editor software of choice (e.g., photoshop, GIMP, etc.)Here are two other methods that are free and easy to use:Online-image-editor, Navigate to https://online-image-editor.com and upload the image. Click the Color Change button and the hidden binary will be revealed.Players can use stegsolve (https://github.com/zardus/ctf-tools/blob/master/stegsolve/install ) to rotate through various channels. Green Plane 5 will reveal the binary.
+Players can then put the binary into get the message: This ransomware brought to you by mirveal.
 
 ## For03 - Malum
 A neat issue in an enterprise environment is that if a user accidently types their password into the username input and hits enter, the password will show in plain text in the logs as a failed login. The admin accidently typed their password into the username field and it was registered as a security log.  Look up the log 4625 to find the log with the password.
