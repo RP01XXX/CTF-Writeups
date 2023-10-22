@@ -3,6 +3,7 @@ This is the official write-ups for my challenges for Deadface 2023. I am the dev
 ## Steg02 - You've Been Ransomwared
 There are several ways this challenge can be solved. First, players can download the image and use their image editor software of choice (e.g., photoshop, GIMP, etc.)Here are two other methods that are free and easy to use:Online-image-editor, Navigate to https://online-image-editor.com and upload the image. Click the Color Change button and the hidden binary will be revealed.Players can use stegsolve (https://github.com/zardus/ctf-tools/blob/master/stegsolve/install ) to rotate through various channels. Green Plane 5 will reveal the binary.
 Players can then put the binary into get the message: This ransomware brought to you by mirveal.
+
 flag{mirveal}
 
 ## For03 - Malum
