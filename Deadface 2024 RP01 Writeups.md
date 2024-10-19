@@ -34,7 +34,8 @@ Solution
 ```
 First go the GhostTown and find the chase chatter called 'Yes Its Vulnerable'
 
-IMAGE
+![ghosttown](https://github.com/user-attachments/assets/0757509d-5ebd-469a-86dd-53847414bf49)
+
 
 Read through and you will find a Burp Suite screenshot with an authorization bearer token and it's posted farther down for easier copy and paste. So, to the trained hacker, they should be able to identify immediately that this is a JWT token. For those not experienced, a quick Google of Authorization bearer token types should find the JWT.
 # JWT TOKEN
@@ -42,10 +43,14 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsIm5vbmNlIjoiIn0.eyJpc3MiOiJ0dXJib3RhY3RpY2Fs
 
 In the chase chain it talks about how the flag=signature and that its solved with default kali wordlists. This should give them a hint into what they are looking for. Decrypt it for the future challenges.
 
+![decoded](https://github.com/user-attachments/assets/752c550f-11fb-41cb-aaf4-96c87972d788)
 
 Then they simply run John with fasttrack.txt to extract the secret.
 
 john jwt.txt -wordlist=/usr/share/wordlists/fasttrack.txt -format=HMAC-SHA256
+
+![cracking it](https://github.com/user-attachments/assets/c8905e95-5fd0-4911-8fb5-fb687ddcce4c)
+
 
 ```
 
