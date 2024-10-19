@@ -1,4 +1,23 @@
 Deadface 2024
+Summary
+**The Chase**
+1. Is this Vul-ner-ble
+2. Finding The Source
+3. Describe Your Perfect Day
+4. I Have Layers
+5. Base of Operations
+6. The Final Showdown
+
+**Standalones**
+1. Hidden in Plain Site
+2. Missing Persons
+3. Price Check
+4. Data Breach
+5. Wild Wild West
+
+
+
+
 THE CHASE SERIES
 
 ## Is This Vul-ner-ble?  Crypto
